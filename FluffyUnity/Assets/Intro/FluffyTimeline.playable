@@ -690,7 +690,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -711,19 +711,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -738,7 +726,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: blink
     m_Version: 1
-  - m_Start: 1.2
+  - m_Start: 1.1999999999999997
     m_ClipIn: 0
     m_Asset: {fileID: 114870862028042566}
     m_UnderlyingAsset: {fileID: 74175491540584404}
@@ -747,23 +735,11 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 114277290904610140}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 0
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1086,7 +1062,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Recorded (6)
     m_Version: 1
-  - m_Start: 8.4
+  - m_Start: 8.400000000000002
     m_ClipIn: 0
     m_Asset: {fileID: 114168532033075330}
     m_UnderlyingAsset: {fileID: 74175491540584404}
@@ -1094,7 +1070,7 @@ MonoBehaviour:
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114277290904610140}
     m_EaseInDuration: 0
-    m_EaseOutDuration: 0
+    m_EaseOutDuration: -0.008183306083083153
     m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
