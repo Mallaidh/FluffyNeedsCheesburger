@@ -29,7 +29,7 @@ public class FluffyMoveCharacer : MonoBehaviour {
             this.Animator.SetTrigger("Jump");
         }
 
-        /*
+        
         if (move.x < 0)
         {
             Fluffy.localScale = new Vector3(Mathf.Abs(Fluffy.localScale.x) * -1, Fluffy.localScale.y, Fluffy.localScale.z);
@@ -38,7 +38,7 @@ public class FluffyMoveCharacer : MonoBehaviour {
         {
             Fluffy.localScale = new Vector3(Mathf.Abs(Fluffy.localScale.x), Fluffy.localScale.y, Fluffy.localScale.z);
         }
-        */
+        
         charController.Move(move);
 
 
