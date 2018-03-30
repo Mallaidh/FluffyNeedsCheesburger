@@ -18,6 +18,7 @@ public class SpriteBillboard : MonoBehaviour {
         {
             transform.LookAt(Camera.main.transform.position, Vector3.up);
         }
+        transform.Rotate(0, 180, 0);
 
     }
 }

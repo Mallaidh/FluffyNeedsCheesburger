@@ -40,13 +40,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 3
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -60,7 +61,7 @@ TextureImporter:
     maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -70,7 +71,7 @@ TextureImporter:
     maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -80,7 +81,7 @@ TextureImporter:
     maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -89,7 +90,33 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: 0, y: 64}
+      - {x: -10.395585, y: 63.579597}
+      - {x: -20.336832, y: 59.38045}
+      - {x: -29.389263, y: 52.586105}
+      - {x: -37.15724, y: 43.49349}
+      - {x: -43.301273, y: 32.499996}
+      - {x: -42, y: 23}
+      - {x: -48, y: 9}
+      - {x: -45, y: -2}
+      - {x: -39, y: -7}
+      - {x: -26, y: -6}
+      - {x: -13, y: -4}
+      - {x: -10, y: -16}
+      - {x: -10.39558, y: -63.579597}
+      - {x: 0.000004371139, y: -65}
+      - {x: 10.39559, y: -63.579594}
+      - {x: 12, y: -28}
+      - {x: 19, y: -4}
+      - {x: 38, y: -3}
+      - {x: 49.726097, y: 6.7943125}
+      - {x: 47.552837, y: 20.086056}
+      - {x: 43.301296, y: 32.499943}
+      - {x: 35, y: 37}
+      - {x: 28, y: 44}
+      - {x: 20, y: 54}
+      - {x: 13, y: 57}
     physicsShape: []
   spritePackingTag: 
   userData: 

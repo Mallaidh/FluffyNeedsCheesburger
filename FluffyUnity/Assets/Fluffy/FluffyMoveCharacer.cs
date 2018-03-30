@@ -5,12 +5,18 @@ using UnityEngine;
 
 public class FluffyMoveCharacer : MonoBehaviour {
 
-    private CharacterController charController;
     public float MoveSpeed = 1;
     public float GravityScale = 1;
     public float JumpForce = 10;
+    public float JumpDeceleration = 10;
     public Transform Fluffy;
     public Animator Animator;
+    public float minZ = .714f;
+    public float maxZ = 7.71f;
+    public AudioSource JumpSound;
+
+    private CharacterController charController;
+    private float JumpMomentum = 0;
 
     // Use this for initialization
     void Start () {
@@ -21,15 +27,28 @@ public class FluffyMoveCharacer : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime, (Physics.gravity.y * GravityScale * Time.deltaTime), Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime);
+        // X + Z Movement
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime, 0, Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            move = new Vector3(move.x, -JumpForce, move.z);
-            this.Animator.SetTrigger("Jump");
+        bool onGround = JumpMomentum <= 0;
+
+        // Jump if on ground
+        if (onGround) {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                JumpMomentum = JumpForce;
+                Animator.SetTrigger("Jump");
+                JumpSound.Play();
+            }
         }
 
-        
+        // Jumping or falling
+        if (JumpMomentum > 0 || !charController.isGrounded) {
+            // Gravity
+            JumpMomentum -= Time.deltaTime * JumpDeceleration;
+            move.y = JumpMomentum;
+        }
+
         if (move.x < 0)
         {
             Fluffy.localScale = new Vector3(Mathf.Abs(Fluffy.localScale.x) * -1, Fluffy.localScale.y, Fluffy.localScale.z);
@@ -38,18 +57,18 @@ public class FluffyMoveCharacer : MonoBehaviour {
         {
             Fluffy.localScale = new Vector3(Mathf.Abs(Fluffy.localScale.x), Fluffy.localScale.y, Fluffy.localScale.z);
         }
-        
+
         charController.Move(move);
 
 
         // Keep him on the road
-        if (transform.position.z > 5)
+        if (transform.position.z > maxZ)
         {
-            transform.position = transform.position.SetZ(5);
+            transform.position = transform.position.SetZ(maxZ);
         }
-        if (transform.position.z < 0)
+        if (transform.position.z < minZ)
         {
-            transform.position = transform.position.SetZ(0);
+            transform.position = transform.position.SetZ(minZ);
         }
 
         // Animations
