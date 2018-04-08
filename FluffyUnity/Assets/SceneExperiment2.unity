@@ -2843,7 +2843,7 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 2
   MaxDistance: 8
   Pan2D: 0
@@ -3185,7 +3185,7 @@ AudioSource:
   MinDistance: 6
   MaxDistance: 8
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -3194,19 +3194,19 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 1
+      value: 1.0386047
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
       time: 1
-      value: 0
+      value: 0.038604736
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3355,8 +3355,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 3
   GravityScale: 0.5
-  JumpForce: 0.6
-  JumpDeceleration: 2
+  JumpForce: 0.3
+  JumpDeceleration: 1
   Fluffy: {fileID: 748035840}
   Animator: {fileID: 0}
   minZ: 0.714
