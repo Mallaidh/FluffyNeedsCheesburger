@@ -39,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -51,8 +51,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.48372325, y: 0.68706536}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -99,43 +99,37 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skirt
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 691
-        width: 214
-        height: 254
-      alignment: 9
-      pivot: {x: 0.46379003, y: 0.8003228}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Torso
       rect:
         serializedVersion: 2
-        x: 378
-        y: 663
-        width: 223
-        height: 294
+        x: 624
+        y: 84
+        width: 237
+        height: 445
       alignment: 9
-      pivot: {x: 0.52615523, y: 0.13794194}
+      pivot: {x: 0.51195204, y: 0.14197099}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -57.5, y: 216.5}
+        - {x: -105.5, y: 149.5}
+        - {x: -105.5, y: -182.5}
+        - {x: -33.5, y: -211.5}
+        - {x: 75.5, y: -211.5}
+        - {x: 111.5, y: -190.5}
+        - {x: 103.21521, y: 158.59601}
+        - {x: 41.5, y: 216.5}
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: Head
       rect:
         serializedVersion: 2
-        x: 619
-        y: 615
-        width: 352
-        height: 374
+        x: 631.0698
+        y: 628.035
+        width: 376.37134
+        height: 395.4411
       alignment: 9
-      pivot: {x: 0.5787069, y: 0.09329975}
+      pivot: {x: 0.5091647, y: 0.055277843}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,11 +139,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 190.49998
-        width: 71
-        height: 273
+        y: 194.49998
+        width: 73
+        height: 279
       alignment: 9
-      pivot: {x: 0.54644597, y: 0.87987703}
+      pivot: {x: 0.5314748, y: 0.84661806}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +152,12 @@ TextureImporter:
       name: Right Leg
       rect:
         serializedVersion: 2
-        x: 178
-        y: 314
-        width: 71
-        height: 273
+        x: 181.89522
+        y: 321.86032
+        width: 73
+        height: 279.00003
       alignment: 9
-      pivot: {x: 0.54024535, y: 0.8876783}
+      pivot: {x: 0.47208497, y: 0.8404152}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,47 +166,77 @@ TextureImporter:
       name: Rake
       rect:
         serializedVersion: 2
-        x: 299
-        y: 85.49997
-        width: 246
-        height: 508.00003
+        x: 300.82538
+        y: 81.49998
+        width: 265.8952
+        height: 534.8254
       alignment: 9
-      pivot: {x: 0.4872848, y: 0.8944989}
+      pivot: {x: 0.41439772, y: 0.95264256}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 16.523193, y: -194.47467}
+        - {x: 22.427185, y: 243.4768}
+        - {x: 1.2384033, y: 261}
+        - {x: -22.142395, y: 251.4768}
+        - {x: -22.344116, y: -192.56958}
+        - {x: -125.90399, y: -196.81445}
+        - {x: -121.996765, y: -250.1424}
+        - {x: 123, y: -254}
+        - {x: 124.3808, y: -202.09601}
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: Left Arm
       rect:
         serializedVersion: 2
-        x: 553
-        y: 335
-        width: 192
-        height: 270
+        x: 471
+        y: 362
+        width: 196
+        height: 277
       alignment: 9
-      pivot: {x: 0.81376237, y: 0.82943386}
+      pivot: {x: 0.82266515, y: 0.8156937}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 24, y: 135}
+        - {x: -55.095947, y: 47.04962}
+        - {x: -96, y: -31}
+        - {x: -88, y: -132}
+        - {x: -25, y: -132}
+        - {x: 26, y: -101}
+        - {x: 90, y: 57}
+        - {x: 90, y: 124}
+        - {x: 87, y: 135}
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: Right Arm
       rect:
         serializedVersion: 2
-        x: 797
-        y: 334
-        width: 192
-        height: 270
+        x: 816.73804
+        y: 342.19214
+        width: 196
+        height: 276
       alignment: 9
-      pivot: {x: 0.22659588, y: 0.8167808}
+      pivot: {x: 0.1212672, y: 0.7693431}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -62, y: 135}
+        - {x: -71, y: 111}
+        - {x: -71, y: 69}
+        - {x: -2, y: -92}
+        - {x: 41, y: -122}
+        - {x: 96, y: -122}
+        - {x: 96, y: 9}
+        - {x: 44, y: 135}
       physicsShape: []
       tessellationDetail: 0
-    outline: []
+    outline:
+    - - {x: -512, y: -512}
+      - {x: -512, y: 512}
+      - {x: 512, y: 512}
+      - {x: 512, y: -512}
     physicsShape: []
   spritePackingTag: 
-  userData: 99824548546375
+  userData: 99825046302457
   assetBundleName: 
   assetBundleVariant: 
