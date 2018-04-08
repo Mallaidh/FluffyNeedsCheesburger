@@ -3,7 +3,15 @@ guid: 10f8472be9aa4e94fb0988bdb8600008
 timeCreated: 1523185505
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Skirt
+    21300002: Torso
+    21300004: Head
+    21300006: Left Leg
+    21300008: Right Leg
+    21300010: Rake
+    21300012: Left Arm
+    21300014: Right Arm
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +48,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,12 +75,144 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Skirt
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 691
+        width: 214
+        height: 254
+      alignment: 9
+      pivot: {x: 0.46379003, y: 0.8003228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 663
+        width: 223
+        height: 294
+      alignment: 9
+      pivot: {x: 0.52615523, y: 0.13794194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 615
+        width: 352
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5787069, y: 0.09329975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Left Leg
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 190.49998
+        width: 71
+        height: 273
+      alignment: 9
+      pivot: {x: 0.54644597, y: 0.87987703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Right Leg
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 314
+        width: 71
+        height: 273
+      alignment: 9
+      pivot: {x: 0.54024535, y: 0.8876783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rake
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 85.49997
+        width: 246
+        height: 508.00003
+      alignment: 9
+      pivot: {x: 0.4872848, y: 0.8944989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Left Arm
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 335
+        width: 192
+        height: 270
+      alignment: 9
+      pivot: {x: 0.81376237, y: 0.82943386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Right Arm
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 334
+        width: 192
+        height: 270
+      alignment: 9
+      pivot: {x: 0.22659588, y: 0.8167808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 
+  userData: 99824548546375
   assetBundleName: 
   assetBundleVariant: 
