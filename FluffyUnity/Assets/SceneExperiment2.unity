@@ -2638,6 +2638,36 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 137005677109113812, guid: bbdc7ff867ac8bd40aeaac09ac6012ca,
+        type: 2}
+      propertyPath: m_AABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137005677109113812, guid: bbdc7ff867ac8bd40aeaac09ac6012ca,
+        type: 2}
+      propertyPath: m_AABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137005677109113812, guid: bbdc7ff867ac8bd40aeaac09ac6012ca,
+        type: 2}
+      propertyPath: m_AABB.m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137005677109113812, guid: bbdc7ff867ac8bd40aeaac09ac6012ca,
+        type: 2}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137005677109113812, guid: bbdc7ff867ac8bd40aeaac09ac6012ca,
+        type: 2}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137005677109113812, guid: bbdc7ff867ac8bd40aeaac09ac6012ca,
+        type: 2}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbdc7ff867ac8bd40aeaac09ac6012ca, type: 2}
   m_IsPrefabParent: 0

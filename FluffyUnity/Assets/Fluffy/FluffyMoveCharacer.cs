@@ -34,7 +34,7 @@ public class FluffyMoveCharacer : MonoBehaviour {
 
         // Jump if on ground
         if (onGround) {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetButtonDown("Jump"))
             {
                 JumpMomentum = JumpForce;
                 Animator.SetTrigger("Jump");
