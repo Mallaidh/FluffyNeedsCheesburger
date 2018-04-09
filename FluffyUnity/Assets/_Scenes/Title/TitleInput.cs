@@ -13,7 +13,7 @@ public class TitleInput : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            SceneManager.LoadScene("IntroScene");
+            SceneManager.LoadScene(1);
         }
     }
 }
