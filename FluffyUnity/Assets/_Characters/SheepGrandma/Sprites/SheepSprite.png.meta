@@ -189,12 +189,12 @@ TextureImporter:
       name: Left Arm
       rect:
         serializedVersion: 2
-        x: 471
-        y: 362
-        width: 196
-        height: 277
+        x: 471.5002
+        y: 362.95825
+        width: 196.00003
+        height: 276
       alignment: 9
-      pivot: {x: 0.82266515, y: 0.8156937}
+      pivot: {x: 0.82011294, y: 0.81517714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 24, y: 135}
@@ -237,6 +237,6 @@ TextureImporter:
       - {x: 512, y: -512}
     physicsShape: []
   spritePackingTag: 
-  userData: 99825046302457
+  userData: 99831132251850
   assetBundleName: 
   assetBundleVariant: 
