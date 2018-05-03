@@ -101,12 +101,12 @@ TextureImporter:
       name: Head
       rect:
         serializedVersion: 2
-        x: 344
-        y: 700
-        width: 312
-        height: 264
+        x: 339
+        y: 695
+        width: 322
+        height: 274
       alignment: 9
-      pivot: {x: 0.4439171, y: 0.052612536}
+      pivot: {x: 0.4456588, y: 0.06894054}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -115,12 +115,12 @@ TextureImporter:
       name: Right Arm
       rect:
         serializedVersion: 2
-        x: 188
-        y: 434
-        width: 112
-        height: 238
+        x: 182
+        y: 427
+        width: 123
+        height: 250
       alignment: 9
-      pivot: {x: 0.7213263, y: 0.88598096}
+      pivot: {x: 0.7055979, y: 0.8714539}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,12 +129,12 @@ TextureImporter:
       name: Body
       rect:
         serializedVersion: 2
-        x: 410
-        y: 368
-        width: 207
-        height: 305
+        x: 403
+        y: 361
+        width: 221
+        height: 319
       alignment: 9
-      pivot: {x: 0.54226494, y: 0.0553834}
+      pivot: {x: 0.53958756, y: 0.07489645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: Left Arm
       rect:
         serializedVersion: 2
-        x: 690
-        y: 412
-        width: 135
-        height: 267
+        x: 683
+        y: 406
+        width: 149
+        height: 280
       alignment: 9
-      pivot: {x: 0.19756809, y: 0.89320904}
+      pivot: {x: 0.22598451, y: 0.8731672}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,12 +157,12 @@ TextureImporter:
       name: Right Leg
       rect:
         serializedVersion: 2
-        x: 337
-        y: 24
-        width: 71
-        height: 300
+        x: 330
+        y: 17
+        width: 85
+        height: 314
       alignment: 9
-      pivot: {x: 0.49999914, y: 0.9180033}
+      pivot: {x: 0.49999893, y: 0.89936626}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: Left Leg
       rect:
         serializedVersion: 2
-        x: 637
-        y: 24
-        width: 105
-        height: 294
+        x: 630
+        y: 17
+        width: 119
+        height: 308
       alignment: 9
-      pivot: {x: 0.34724063, y: 0.9166145}
+      pivot: {x: 0.3652118, y: 0.8976774}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: Tail
       rect:
         serializedVersion: 2
-        x: 815
-        y: 211
-        width: 133
-        height: 197
+        x: 808
+        y: 204
+        width: 147
+        height: 211
       alignment: 9
-      pivot: {x: 0.14916626, y: 0.12991047}
+      pivot: {x: 0.18257898, y: 0.15446617}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,6 +198,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 
+  userData: 99966450957696
   assetBundleName: 
   assetBundleVariant: 
