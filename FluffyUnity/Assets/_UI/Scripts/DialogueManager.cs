@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public struct DialogueInfo
 {
     public Sprite CharacterFace;
+    public Sprite BoxSprite;
     public string[] StuffToSay;
 }
 
@@ -16,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager instance;
     public bool IsActive;
     public Image FaceImage;
+    private Image BoxImage;
     public Text DialogueText;
     private CanvasGroup group;
     private DialogueInfo CurrentDialogue;
@@ -25,6 +27,7 @@ public class DialogueManager : MonoBehaviour
 
 	void Start ()
     {
+        BoxImage = GetComponent<Image>();
         if (instance != null)
         {
             Destroy(instance.gameObject);
@@ -65,6 +68,7 @@ public class DialogueManager : MonoBehaviour
         CurrentDialogueIndex = 0;
         DialogueText.text = info.StuffToSay[0];
         FaceImage.sprite = info.CharacterFace;
+        BoxImage.sprite = info.BoxSprite;
         DialogueJustStarted = true;
     }
 

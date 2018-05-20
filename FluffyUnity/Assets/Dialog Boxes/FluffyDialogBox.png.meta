@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 507b1517af9366b49bdb35d7211f8fa9
+guid: 6985b1134312e8b429cd791a73dba16f
 TextureImporter:
   fileIDToRecycleName:
     21300000: Face
@@ -120,8 +120,8 @@ TextureImporter:
       name: Face
       rect:
         serializedVersion: 2
-        x: 230
-        y: 440
+        x: 209
+        y: 377
         width: 400
         height: 400
       alignment: 0
@@ -131,7 +131,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e96f4e5cb4286a74699ce6f56bf1b3fd
+      spriteID: 6c7594cb7cb440e45a4abc8fc6f62bc3
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d043e94c5558e489de7e24e3dff65e
+      spriteID: 819118abe2975c24181395c97da98412
       vertices: []
       indices: 
       edges: []
@@ -159,7 +159,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 56bff162cc8b57646b7417af7c79eca9
+    spriteID: b0a595f1240cdd54b9fe56cf0c118c13
     vertices: []
     indices: 
     edges: []
