@@ -8011,6 +8011,22 @@ Prefab:
       propertyPath: m_Name
       value: SheepLady
       objectReference: {fileID: 0}
+    - target: {fileID: 114621742583020414, guid: b10f222aa78a22e48be0ea79327609cb,
+        type: 2}
+      propertyPath: dialogueInfo.BoxSprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 507b1517af9366b49bdb35d7211f8fa9,
+        type: 3}
+    - target: {fileID: 114621742583020414, guid: b10f222aa78a22e48be0ea79327609cb,
+        type: 2}
+      propertyPath: dialogueInfo.StuffToSay.Array.data[0]
+      value: HELLO
+      objectReference: {fileID: 0}
+    - target: {fileID: 114621742583020414, guid: b10f222aa78a22e48be0ea79327609cb,
+        type: 2}
+      propertyPath: dialogueInfo.StuffToSay.Array.data[1]
+      value: Stuff
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b10f222aa78a22e48be0ea79327609cb, type: 2}
   m_IsPrefabParent: 0
