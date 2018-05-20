@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class SayStuff : MonoBehaviour
 {
-    public DialogueInfo dialogueInfo;
+    public AllDialogueInfo dialogueInfo;
+    private int TimesTalkedTo = 0;
     public float DistanceToShowButton;
     public GameObject ButtonImage;
     private FluffyMoveCharacer player;
@@ -23,12 +24,21 @@ public class SayStuff : MonoBehaviour
         {
             anim.SetBool("Talking", true);
             player.Animator.SetBool("Talking", true);
-            DialogueManager.instance.StartDialogue(dialogueInfo, this);
+            DialogueInfo di = new DialogueInfo
+            {
+                StuffToSay = dialogueInfo.AllConversations[TimesTalkedTo].StuffToSay,
+                PlayerFace = dialogueInfo.PlayerFace,
+                PlayerBox = dialogueInfo.PlayerBox,
+                BoxSprite = dialogueInfo.BoxSprite,
+                CharacterFace = dialogueInfo.CharacterFace
+            };
+            DialogueManager.instance.StartDialogue(di, this);
         }
 	}
 
     public void DialogueEnded()
     {
+        TimesTalkedTo++;
         player.Animator.SetBool("Talking", false);
         anim.SetBool("Talking", false);
     }

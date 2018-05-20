@@ -920,13 +920,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueInfo:
+    PlayerFace: {fileID: 21300000, guid: 6985b1134312e8b429cd791a73dba16f, type: 3}
+    PlayerBox: {fileID: 21300002, guid: 6985b1134312e8b429cd791a73dba16f, type: 3}
     CharacterFace: {fileID: 21300000, guid: 507b1517af9366b49bdb35d7211f8fa9, type: 3}
-    BoxSprite: {fileID: 0}
-    StuffToSay:
-    - I like to say stuff
-    - Do you also like to say stuff?
-    - Saying stuff is cool
-    - Good things happen when you say stuff
+    BoxSprite: {fileID: 21300002, guid: 507b1517af9366b49bdb35d7211f8fa9, type: 3}
+    AllConversations:
+    - StuffToSay:
+      - Hello
+      - Saying stuff is cool
+      - '*I agree'
+    - StuffToSay:
+      - Go away
+      - '**sad*'
   DistanceToShowButton: 5
   ButtonImage: {fileID: 1131538120188334}
 --- !u!114 &114632741853560522
