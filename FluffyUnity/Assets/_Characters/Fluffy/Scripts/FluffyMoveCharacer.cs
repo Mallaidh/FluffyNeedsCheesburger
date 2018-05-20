@@ -30,18 +30,6 @@ public class FluffyMoveCharacer : MonoBehaviour {
         // X + Z Movement
         Vector3 move = new Vector3(Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime, 0, Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime);
 
-        bool onGround = JumpMomentum <= 0;
-
-        // Jump if on ground
-        if (onGround) {
-            if (Input.GetButtonDown("Jump"))
-            {
-                JumpMomentum = JumpForce;
-                Animator.SetTrigger("Jump");
-                JumpSound.Play();
-            }
-        }
-
         // Jumping or falling
         if (JumpMomentum > 0 || !charController.isGrounded) {
             // Gravity
@@ -58,7 +46,22 @@ public class FluffyMoveCharacer : MonoBehaviour {
             Fluffy.localScale = new Vector3(Mathf.Abs(Fluffy.localScale.x), Fluffy.localScale.y, Fluffy.localScale.z);
         }
 
-        charController.Move(move);
+        bool onGround = charController.isGrounded;//JumpMomentum <= 0;
+
+        if (!DialogueManager.instance.IsActive) //Don't move when there is dialogue on screen
+        {
+            // Jump if on ground
+            if (onGround)
+            {
+                if (Input.GetButtonDown("Jump"))
+                {
+                    JumpMomentum = JumpForce;
+                    Animator.SetTrigger("Jump");
+                    JumpSound.Play();
+                }
+            }
+            charController.Move(move);
+        }
 
 
         // Keep him on the road
