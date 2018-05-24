@@ -8284,7 +8284,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 265.757
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
     - target: {fileID: 4369316618775498, guid: b10f222aa78a22e48be0ea79327609cb, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0.20201303
@@ -8336,17 +8335,6 @@ Prefab:
     - target: {fileID: 4576611287839718, guid: b10f222aa78a22e48be0ea79327609cb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
-=======
-    - target: {fileID: 114846698388469742, guid: b10f222aa78a22e48be0ea79327609cb,
-        type: 2}
-      propertyPath: m_Length
-      value: 0.7900001
-      objectReference: {fileID: 0}
-    - target: {fileID: 114021790025357702, guid: b10f222aa78a22e48be0ea79327609cb,
-        type: 2}
-      propertyPath: m_Length
-      value: 0.6811221
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b10f222aa78a22e48be0ea79327609cb, type: 2}
