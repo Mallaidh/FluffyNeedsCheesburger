@@ -8464,6 +8464,18 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114621742583020414, guid: b10f222aa78a22e48be0ea79327609cb,
+        type: 2}
+      propertyPath: dialogueInfo.PlayerFace
+      value: 
+      objectReference: {fileID: 21300000, guid: 9bb1a1ec4d9930145a937f1d77848296,
+        type: 3}
+    - target: {fileID: 114621742583020414, guid: b10f222aa78a22e48be0ea79327609cb,
+        type: 2}
+      propertyPath: dialogueInfo.PlayerBox
+      value: 
+      objectReference: {fileID: 21300002, guid: 9bb1a1ec4d9930145a937f1d77848296,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b10f222aa78a22e48be0ea79327609cb, type: 2}
   m_IsPrefabParent: 0
