@@ -39,6 +39,10 @@ public class SayStuff : MonoBehaviour
     public void DialogueEnded()
     {
         TimesTalkedTo++;
+        if(TimesTalkedTo>= dialogueInfo.AllConversations.Length)
+        {
+            TimesTalkedTo = 0;
+        }
         player.Animator.SetBool("Talking", false);
         anim.SetBool("Talking", false);
     }
