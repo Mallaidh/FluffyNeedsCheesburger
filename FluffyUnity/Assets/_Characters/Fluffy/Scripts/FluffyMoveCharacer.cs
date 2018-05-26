@@ -51,13 +51,17 @@ public class FluffyMoveCharacer : MonoBehaviour {
         if (!DialogueManager.instance.IsActive) //Don't move when there is dialogue on screen
         {
 
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetButtonDown("Fire1"))
             {
                 Animator.SetTrigger("Punch");
             }
-        
-        // Jump if on ground
-        if (onGround)
+            if (Input.GetButtonDown("Fire2"))
+            {
+                Animator.SetTrigger("Kick");
+            }
+
+            // Jump if on ground
+            if (onGround)
             {
                 if (Input.GetButtonDown("Jump"))
                 {

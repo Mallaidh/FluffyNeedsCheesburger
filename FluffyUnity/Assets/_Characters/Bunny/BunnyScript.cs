@@ -30,6 +30,14 @@ public class BunnyScript : MonoBehaviour
     {
         if (CurrentState == BunnyStates.Chasing)
         {
+            if (fluffy.transform.position.x > transform.position.x)
+            {
+                transform.localScale = new Vector3(-0.2f, transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                transform.localScale = new Vector3(0.2f, transform.localScale.y, transform.localScale.z);
+            }
             transform.position = Vector3.MoveTowards(transform.position, fluffy.transform.position, MoveSpeed * Time.deltaTime);
         }
 	}
